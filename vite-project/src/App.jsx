@@ -1,8 +1,9 @@
-import {Routes, Route, Navigate} from 'react-router-dom'
-import './App.css'
-import Chat from './pages/chat'
-import Register from './pages/register'
-import Login from './pages/login'
+import { Routes, Route, Navigate } from 'react-router-dom';
+import './App.css';
+import Chat from './pages/chat';
+import Register from './pages/register';
+import Login from './pages/login';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Route path="*" element={<Navigate to="/login" />} />
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

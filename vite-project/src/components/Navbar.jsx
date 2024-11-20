@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CustomNavbar = () => {
     return (
-        <BootstrapNavbar bg="dark" expand="lg" className="mb-4" style={{ height: "3.75rem" }}>
+        <BootstrapNavbar bg="dark" expand="lg" className="mb-4" style={{ height: "5rem" }}>
             <Container gap={3}>
                 <h2>
                     <Link to="/" className="text-white" style={{ textDecoration: "none" }}>
